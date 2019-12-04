@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BF1365723985E900009F9FC /* Questions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BF1365523985E900009F9FC /* Questions.cpp */; };
+		0BF1365923985EB10009F9FC /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BF1365823985EB10009F9FC /* Game.cpp */; };
+		0BF1365B23985F7B0009F9FC /* Help.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BF1365A23985F7B0009F9FC /* Help.cpp */; };
+		0BF1365D23985FC30009F9FC /* Score.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BF1365C23985FC30009F9FC /* Score.cpp */; };
 		B2CD8E4423624490007EBE18 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2CD8E4323624490007EBE18 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +27,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0BF1365523985E900009F9FC /* Questions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Questions.cpp; sourceTree = "<group>"; };
+		0BF1365823985EB10009F9FC /* Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		0BF1365A23985F7B0009F9FC /* Help.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Help.cpp; sourceTree = "<group>"; };
+		0BF1365C23985FC30009F9FC /* Score.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Score.cpp; sourceTree = "<group>"; };
 		B2CD8E4023624490007EBE18 /* CIS 240 Final */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CIS 240 Final"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2CD8E4323624490007EBE18 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				B2CD8E4323624490007EBE18 /* main.cpp */,
+				0BF1365A23985F7B0009F9FC /* Help.cpp */,
+				0BF1365C23985FC30009F9FC /* Score.cpp */,
+				0BF1365823985EB10009F9FC /* Game.cpp */,
+				0BF1365523985E900009F9FC /* Questions.cpp */,
 			);
 			path = "CIS 240 Final";
 			sourceTree = "<group>";
@@ -119,7 +131,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BF1365923985EB10009F9FC /* Game.cpp in Sources */,
 				B2CD8E4423624490007EBE18 /* main.cpp in Sources */,
+				0BF1365B23985F7B0009F9FC /* Help.cpp in Sources */,
+				0BF1365D23985FC30009F9FC /* Score.cpp in Sources */,
+				0BF1365723985E900009F9FC /* Questions.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
