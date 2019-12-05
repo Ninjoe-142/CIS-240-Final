@@ -14,7 +14,7 @@ using namespace std;
 //Questions seems like it could be several functions. Setting as bool return with empty parameters
 void Help();
 void Score();
-void Game();
+void playGame();
 bool Questions();
 
 int main() {
@@ -42,7 +42,7 @@ int main() {
 	switch (selection)
 	{
 	case 'g':
-	case 'G': Game();
+		case 'G': playGame();
 		break;
 	case 'h':
 	case 'H': Help();

@@ -1,9 +1,18 @@
-//
-//  Game.cpp
-//  CIS 240 Final
-//
-//  Created by Joseph DeCrisanti on 12/4/19.
-//  Copyright © 2019 Joseph DeCrisanti. All rights reserved.
-//
+/*Game.cpp
+Matt Archer & Joe DeCrisanti
+Dec 5, 2019
+CIS 240.01
+Post University*/
 
+#include <iostream>
+#include <string>
+using namespace std;
 
+bool questionLogic(string question, string answers[]);
+
+void playGame(){
+	
+	cout << "Lets start with three warm up questions\n";
+	
+	
+}
