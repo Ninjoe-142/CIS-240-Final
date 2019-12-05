@@ -7,7 +7,7 @@ Post University*/
 void Help()
 {
 	//cout statements telling user how to use game
-	cout << "******************************\n"
+	cout << "*******************************\n"
 		<< "*            HELP             *\n"
 		<< "*******************************\n";
 	cout << endl << endl;
@@ -19,6 +19,6 @@ void Help()
 		<< "or 'S'.) or with the appropriate\n"
 		<< "answer. ('A', 'B', 'C' or 'D'.)\n"
 		<< "Good luck, and may RNGezus have\n"
-		<< "mercy on your soul!";
+		<< "mercy on your soul!\n";
 
 }
