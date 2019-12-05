@@ -4,6 +4,9 @@ Dec 5, 2019
 CIS 240.01
 Post University*/
 
+#include <iostream>
+using namespace std;
+
 void Help()
 {
 	//cout statements telling user how to use game
