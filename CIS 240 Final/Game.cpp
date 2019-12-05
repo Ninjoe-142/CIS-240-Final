@@ -8,11 +8,16 @@ Post University*/
 #include <string>
 using namespace std;
 
-bool questionLogic(string question, string answers[]);
+bool practiceQuestionOne();
+bool practiceQuestionTwo();
+bool practiceQuestionThree();
 
 void playGame(){
 	
 	cout << "Lets start with three warm up questions\n";
 	
+	practiceQuestionOne();
+	practiceQuestionTwo();
+	practiceQuestionThree();
 	
 }

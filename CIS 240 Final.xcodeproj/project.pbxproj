@@ -11,6 +11,7 @@
 		0BF1365923985EB10009F9FC /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BF1365823985EB10009F9FC /* Game.cpp */; };
 		0BF1365B23985F7B0009F9FC /* Help.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BF1365A23985F7B0009F9FC /* Help.cpp */; };
 		0BF1365D23985FC30009F9FC /* Score.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BF1365C23985FC30009F9FC /* Score.cpp */; };
+		0BF1365F2399CB870009F9FC /* showScores.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BF1365E2399CB870009F9FC /* showScores.cpp */; };
 		B2CD8E4423624490007EBE18 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2CD8E4323624490007EBE18 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		0BF1365823985EB10009F9FC /* Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
 		0BF1365A23985F7B0009F9FC /* Help.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Help.cpp; sourceTree = "<group>"; };
 		0BF1365C23985FC30009F9FC /* Score.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Score.cpp; sourceTree = "<group>"; };
+		0BF1365E2399CB870009F9FC /* showScores.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = showScores.cpp; sourceTree = "<group>"; };
 		B2CD8E4023624490007EBE18 /* CIS 240 Final */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CIS 240 Final"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2CD8E4323624490007EBE18 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,6 +72,7 @@
 				0BF1365C23985FC30009F9FC /* Score.cpp */,
 				0BF1365823985EB10009F9FC /* Game.cpp */,
 				0BF1365523985E900009F9FC /* Questions.cpp */,
+				0BF1365E2399CB870009F9FC /* showScores.cpp */,
 			);
 			path = "CIS 240 Final";
 			sourceTree = "<group>";
@@ -100,7 +103,7 @@
 		B2CD8E3823624490007EBE18 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = "Joseph DeCrisanti";
 				TargetAttributes = {
 					B2CD8E3F23624490007EBE18 = {
@@ -132,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BF1365923985EB10009F9FC /* Game.cpp in Sources */,
+				0BF1365F2399CB870009F9FC /* showScores.cpp in Sources */,
 				B2CD8E4423624490007EBE18 /* main.cpp in Sources */,
 				0BF1365B23985F7B0009F9FC /* Help.cpp in Sources */,
 				0BF1365D23985FC30009F9FC /* Score.cpp in Sources */,
@@ -254,6 +258,7 @@
 		B2CD8E4823624490007EBE18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D4ZSX8DAQV;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -264,6 +269,7 @@
 		B2CD8E4923624490007EBE18 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D4ZSX8DAQV;
 				ENABLE_HARDENED_RUNTIME = YES;

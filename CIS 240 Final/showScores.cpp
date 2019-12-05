@@ -1,3 +1,9 @@
+#include <iostream>
+#include <string>
+#include <fstream>
+
+using namespace std;
+
 void showScore() {
 	//show leaderboard
 	string lead1, lead2, lead3, lead4, lead5,

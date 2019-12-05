@@ -22,7 +22,7 @@ bool practiceQuestionOne() {
 	
 	while (a == b || a == c || a == d || b == c || b == d || c == d) {
 		
-		srand(time(0));
+		srand( static_cast<unsigned int>(time(0)));
 		
 		a = rand() % 4;
 		b = rand() % 4;
@@ -78,7 +78,7 @@ bool practiceQuestionTwo() {
 	
 	cout << "How many Dungeon Masters (DMs) are there for a game?" << endl;
 	
-	string answers[4] ={"5e", "3e", "3.5e", "6e"};
+	string answers[4] ={"1", "1 per dungeon", "2", "0"};
 	
 	int a = 0;
 	int b = 0;
@@ -88,7 +88,7 @@ bool practiceQuestionTwo() {
 	
 	while (a == b || a == c || a == d || b == c || b == d || c == d) {
 		
-		srand(time(0));
+		srand( static_cast<unsigned int>(time(0)));
 		
 		a = rand() % 4;
 		b = rand() % 4;
@@ -154,7 +154,7 @@ bool practiceQuestionThree() {
 	
 	while (a == b || a == c || a == d || b == c || b == d || c == d) {
 		
-		srand(time(0));
+		srand( static_cast<unsigned int>(time(0)));
 		
 		a = rand() % 4;
 		b = rand() % 4;
@@ -220,7 +220,7 @@ bool questionOne() {
 	
 	while (a == b || a == c || a == d || b == c || b == d || c == d) {
 		
-		srand(time(0));
+		srand( static_cast<unsigned int>(time(0)));
 		
 		a = rand() % 4;
 		b = rand() % 4;
@@ -286,7 +286,7 @@ bool questionTwo() {
 	
 	while (a == b || a == c || a == d || b == c || b == d || c == d) {
 		
-		srand(time(0));
+		srand( static_cast<unsigned int>(time(0)));
 		
 		a = rand() % 4;
 		b = rand() % 4;
@@ -352,7 +352,7 @@ bool questionThree() {
 	
 	while (a == b || a == c || a == d || b == c || b == d || c == d) {
 		
-		srand(time(0));
+		srand( static_cast<unsigned int>(time(0)));
 		
 		a = rand() % 4;
 		b = rand() % 4;
@@ -418,7 +418,7 @@ bool questionFour() {
 	
 	while (a == b || a == c || a == d || b == c || b == d || c == d) {
 		
-		srand(time(0));
+		srand( static_cast<unsigned int>(time(0)));
 		
 		a = rand() % 4;
 		b = rand() % 4;
@@ -484,7 +484,7 @@ bool questionFive() {
 	
 	while (a == b || a == c || a == d || b == c || b == d || c == d) {
 		
-		srand(time(0));
+		srand( static_cast<unsigned int>(time(0)));
 		
 		a = rand() % 4;
 		b = rand() % 4;
@@ -550,7 +550,7 @@ bool questionSix() {
 	
 	while (a == b || a == c || a == d || b == c || b == d || c == d) {
 		
-		srand(time(0));
+		srand( static_cast<unsigned int>(time(0)));
 		
 		a = rand() % 4;
 		b = rand() % 4;
@@ -616,7 +616,7 @@ bool questionSeven() {
 	
 	while (a == b || a == c || a == d || b == c || b == d || c == d) {
 		
-		srand(time(0));
+		srand( static_cast<unsigned int>(time(0)));
 		
 		a = rand() % 4;
 		b = rand() % 4;
@@ -682,7 +682,7 @@ bool questionEight() {
 	
 	while (a == b || a == c || a == d || b == c || b == d || c == d) {
 		
-		srand(time(0));
+		srand( static_cast<unsigned int>(time(0)));
 		
 		a = rand() % 4;
 		b = rand() % 4;
@@ -748,7 +748,7 @@ bool questionNein () {
 	
 	while (a == b || a == c || a == d || b == c || b == d || c == d) {
 		
-		srand(time(0));
+		srand( static_cast<unsigned int>(time(0)));
 		
 		a = rand() % 4;
 		b = rand() % 4;
@@ -814,7 +814,7 @@ bool questionTen () {
 	
 	while (a == b || a == c || a == d || b == c || b == d || c == d) {
 		
-		srand(time(0));
+		srand( static_cast<unsigned int>(time(0)));
 		
 		a = rand() % 4;
 		b = rand() % 4;

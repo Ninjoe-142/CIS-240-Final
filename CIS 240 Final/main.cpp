@@ -48,7 +48,7 @@ int main() {
 	case 'H': Help();
 		break;
 	case 's':
-	case 'S': Score();
+	case 'S': //Score();
 		break;
 	default: cout << "Please enter 'G' for the game, 'H' for help\n"
 			<< "or 'S' to access the score menus.\n";
