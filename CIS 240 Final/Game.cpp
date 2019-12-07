@@ -12,7 +12,7 @@ bool practiceQuestionOne();
 bool practiceQuestionTwo();
 bool practiceQuestionThree();
 
-void playGame(){
+void Game(){
 	
 	cout << "Lets start with three warm up questions\n";
 	
