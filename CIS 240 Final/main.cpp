@@ -13,14 +13,12 @@ using namespace std;
 
 
 int numOfUsers; 	         //Global counter for number of users
-const char DEFAULT_MONEY = '0'; //For reseting scores of users
-typedef string PlayerType[10][2];
+//const char DEFAULT_MONEY = '0'; //For reseting scores of users
 
 //function prototypes
 //Game should be void? Not sure, depends on display
 //Questions seems like it could be several functions. Setting as bool return with empty parameters
 void Help();
-void InputScore(PlayerType, string, string);
 void Game();
 bool Questions();
 void showScore();
@@ -29,7 +27,6 @@ int main() {
 	// skeleton function to call other functions
 
 	char selection;  //For menu seletion
-	PlayerType playerTable; //To initialize table
 
 	cout << "******************************\n"
 		<< "  Welcome to the Final game!  \n"

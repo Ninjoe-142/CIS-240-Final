@@ -8,9 +8,21 @@ Post University*/
 #include <string>
 using namespace std;
 
+
+
 bool practiceQuestionOne();
 bool practiceQuestionTwo();
 bool practiceQuestionThree();
+bool questionOne();
+bool questionTwo();
+bool questionThree();
+bool questionFour();
+bool questionFive();
+bool questionSix();
+bool questionSeven();
+bool questionEight();
+bool questionNein();
+bool questionTen();
 
 void Game(){
 	
@@ -19,5 +31,20 @@ void Game(){
 	practiceQuestionOne();
 	practiceQuestionTwo();
 	practiceQuestionThree();
+	
+	bool mainGameQuestions[] = {
+		*questionOne,
+		*questionTwo,
+		*questionThree,
+		*questionFour,
+		*questionFive,
+		*questionSix,
+		*questionSeven,
+		*questionEight,
+		*questionNein,
+		*questionTen
+	};
+	
+	
 	
 }
