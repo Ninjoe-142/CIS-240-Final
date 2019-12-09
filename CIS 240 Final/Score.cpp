@@ -1,36 +1,50 @@
 #include<iostream>
 #include<fstream>
-#include<string>
 
-using namespace std;
-
-/*
-
-void InputScore(PlayerType table, string user, string score)
+void InputScore(PlayerData curPlayer)
 {
-	ccept array, compare against current leader board,
-	sort, re-write leader board to reflect current rankings
-	ofstream scoreOut;
+	/*Accept array, compare against current leader board,
+	sort, re-write leader board to reflect current rankings*/
+	fstream scoreBoard;
 	//set temp array to allow entrance of new user data for sorting
-	string temp[11][2];
+	vector<PlayerData> temp;
+	//temp PlayerData for swap
+	PlayerData rand;
 
-	//set output to PlayerScores.out
-	scoreOut.open("PlayerScores.out");
+	//input and output to PlayerScores.txt
+	scoreBoard.open//("C:\\Users\\forti\\Desktop\\ScoreBoard.txt", ios::in); write file path for demo
 
-	//set the first 20 elements in temp equal to original table
-	for (int i = 0; i < 10; i++)
-		for (int j = 0; j < 2; j++)
-			temp[i][j] = table[i][j];
+	//set the first 10 elements to what's in external file
+	for (int i = 0; i < 10; i++) {
+		temp.push_back(PlayerData());
+		 scoreBoard >> temp[i].playerName >> temp[i].score;
+	}
+	scoreBoard.close();
+	//assign most recent player data to vector
+	
+	temp.push_back({curPlayer.playerName, curPlayer.score});
 
-	//assign pair of user and score into temp
-	temp[10][0] = user;
-	temp[10][1] = score;
+	}
 
-	//attempt to sort by columns, not rows
-	for (int j = 0; j < 2; j++)
-		for (int i = 0; i < 11; i++)
+	//swap values in vector with bubble swap
+	for (int i = 0; i < (temp.size() -1); i++){
+		if (temp[i + 1].score > temp[i].score) {
+			temp[i].playerName = rand.playerName;
+			temp[i].score = rand.score;
+			temp[i].playerName = temp[i + 1].playerName;
+			temp[i].score = temp[i + 1].score;
+			temp[i + 1].playerName = rand.playerName;
+			temp[i + 1].score = rand.score;
+		}
+	}
+	if (temp.size() == 11) {
+		temp.pop_back();
+	}
+	scoreBoard.open("C:\\Users\\forti\\Desktop\\ScoreBoard.txt", ios::out, ios::trunc);
+	
+
+	for (int i = 0; i < temp.size(); i++) {
+		scoreBoard << temp[i].playerName << "\t" << temp[i].score << "\n";
+	}
+	scoreBoard.close();
 }
-
-
-*/
-
