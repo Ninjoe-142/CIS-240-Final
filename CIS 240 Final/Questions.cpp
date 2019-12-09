@@ -206,7 +206,7 @@ bool practiceQuestionThree() {
 	return false;
 }
 
-int questionOne() {
+bool questionOne() {
 	
 	cout << "Which class has the feature Meta-Magic" << endl;
 	
@@ -239,33 +239,33 @@ int questionOne() {
 		case 'a':
 		case 'A':
 			if (a == 0){
-				return 1;
+				return true;
 			}else{
-				return 0;
+				return false;
 			}
 		case 'b':
 		case 'B':
 			if (b == 0){
-				return 1;
+				return true;
 			}else{
-				return 0;
+				return false;
 			}
 		case 'c':
 		case 'C':
 			if (c == 0){
-				return 1;
+				return true;
 			}else{
-				return 0;
+				return false;
 			}
 		case 'd':
 		case 'D':
 			if (d == 0){
-				return 1;
+				return true;
 			}else{
-				return 0;
+				return false;
 			}
 		default:
-			return 0;
+			return false;
 			break;
 	}
 	
