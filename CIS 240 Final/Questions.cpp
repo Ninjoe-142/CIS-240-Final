@@ -276,7 +276,7 @@ bool questionTwo() {
 	
 	cout << "What does AC stand for in D&D?" << endl;
 	
-	string answers[4] ={"Armor Class", "Air Conditioning", "Armor Control", "Wizard"};
+	string answers[4] ={"Armor Class", "Air Conditioning", "Armor Control", "Arcane Concepts"};
 	
 	int a = 0;
 	int b = 0;

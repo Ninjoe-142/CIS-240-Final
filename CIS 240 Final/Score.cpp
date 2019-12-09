@@ -4,10 +4,12 @@
 
 using namespace std;
 
+/*
+
 void InputScore(PlayerType table, string user, string score)
 {
-	/*Accept array, compare against current leader board, 
-	sort, re-write leader board to reflect current rankings*/
+	ccept array, compare against current leader board,
+	sort, re-write leader board to reflect current rankings
 	ofstream scoreOut;
 	//set temp array to allow entrance of new user data for sorting
 	string temp[11][2];
@@ -27,7 +29,8 @@ void InputScore(PlayerType table, string user, string score)
 	//attempt to sort by columns, not rows
 	for (int j = 0; j < 2; j++)
 		for (int i = 0; i < 11; i++)
-
-
-
 }
+
+
+*/
+
