@@ -41,7 +41,8 @@ int main() {
 		<< "'G': Jump right in to the game\n"
 		<< "'H': Explanation to the game\n"
 		<< "'S': Access score menu(disabled)\n"
-		<< "'T': Check current leaderboard\n";
+		<< "'T': Check current leaderboard\n"
+		<< "'Q': To Quit\n";
 
 	cin >> selection;
 
@@ -60,9 +61,8 @@ int main() {
 	case 't':
 	case 'T': showScore();
 		break;
-	default: cout << "Please enter 'G' for the game, 'H' for help\n"
-		<< "or 'S' to access the score menus.\n";
-		cin >> selection;
+	case 'q':
+	case 'Q': return 0;
 		break;
 	}
 
@@ -70,3 +70,4 @@ int main() {
 
 	return 0;
 }
+

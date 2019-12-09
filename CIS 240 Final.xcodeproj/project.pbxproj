@@ -28,6 +28,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0B4D5374239EF9960031074C /* ScoreBoard.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ScoreBoard.txt; sourceTree = "<group>"; };
 		0BF1365523985E900009F9FC /* Questions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Questions.cpp; sourceTree = "<group>"; };
 		0BF1365823985EB10009F9FC /* Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
 		0BF1365A23985F7B0009F9FC /* Help.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Help.cpp; sourceTree = "<group>"; };
@@ -70,6 +71,7 @@
 				B2CD8E4323624490007EBE18 /* main.cpp */,
 				0BF1365A23985F7B0009F9FC /* Help.cpp */,
 				0BF1365C23985FC30009F9FC /* Score.cpp */,
+				0B4D5374239EF9960031074C /* ScoreBoard.txt */,
 				0BF1365823985EB10009F9FC /* Game.cpp */,
 				0BF1365523985E900009F9FC /* Questions.cpp */,
 				0BF1365E2399CB870009F9FC /* showScores.cpp */,
