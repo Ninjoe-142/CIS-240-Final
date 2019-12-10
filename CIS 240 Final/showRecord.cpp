@@ -19,7 +19,7 @@ void showRecord() {
 	fstream scoreBoard;
 	
 	//open score board file
-	scoreBoard.open("C:\\Users\\forti\\Desktop\\ScoreBoard.txt");
+	scoreBoard.open("ScoreBoard.txt");
 
 	cout << "CURRENT TOP SCORES:\n\n\n";
 

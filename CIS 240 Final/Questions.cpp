@@ -540,7 +540,7 @@ bool questionSix() {
 	
 	cout << "Which of the following is a cantrip?" << endl;
 	
-	string answers[4] = {"Eldrich Blast", "FireBall", "FireBolt", "Zone of Truth"};
+	string answers[4] = {"Eldrich Blast", "FireBall", "Wish", "Zone of Truth"};
 	
 	int a = 0;
 	int b = 0;
