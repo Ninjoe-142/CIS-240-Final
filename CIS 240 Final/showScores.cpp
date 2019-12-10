@@ -4,6 +4,11 @@
 
 using namespace std;
 
+struct PlayerData {
+	string playerName;
+	int score;
+};
+
 void showScore(PlayerData curPlayer) {
 	//Call in data from external file, search for PlayerData, display
 	fstream scoreBoard;//ref to external score board
@@ -11,12 +16,11 @@ void showScore(PlayerData curPlayer) {
 	bool flag = false;	//flag to indicate player on board or not
 
 	//Open score board
-	scoreBoard.open(// insert file path *HERE*"C:\\Users\\forti\\Desktop\\ScoreBoard.txt"**, ios::in);
-
+	scoreBoard.open("ScoreBoard.txt");
+	
 	for (int i = 0; i < 10; i++) {
 		ref.push_back(PlayerData());
 		scoreBoard >> ref[i].playerName >> ref[i].score;
-
 		//check vector for playerName data
 		if (ref[i].playerName == curPlayer.playerName)
 		{

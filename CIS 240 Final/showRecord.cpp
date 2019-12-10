@@ -4,6 +4,13 @@
 
 using namespace std;
 
+struct PlayerData {
+	string playerName;
+	int score;
+};
+
+int main();
+
 void showRecord() {
 	/*******************************************
 				SHOW CURRENT BOARD
@@ -23,6 +30,6 @@ void showRecord() {
 		cout << temp[i].playerName << "\t" << temp[i].score << endl;
 	}
 
-	int main();
+	main();
 
 }

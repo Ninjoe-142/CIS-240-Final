@@ -18,14 +18,22 @@ int numOfUsers; 	         //Global counter for number of users
 //function prototypes
 //Game should be void? Not sure, depends on display
 //Questions seems like it could be several functions. Setting as bool return with empty parameters
+struct PlayerData {
+	string playerName;
+	int score;
+};
+void resetScore();
+void showRecord();
 void Help();
 void Game();
 bool Questions();
-void showScore();
+void showScore(PlayerData);
 
 int main() {
 	// skeleton function to call other functions
 
+	PlayerData test;
+	
 	char selection;  //For menu seletion
 
 	cout << "******************************\n"
@@ -40,9 +48,10 @@ int main() {
 		<< endl
 		<< "'G': Jump right in to the game\n"
 		<< "'H': Explanation to the game\n"
-		<< "'S': Access score menu(disabled)\n"
-		<< "'T': Check current leaderboard\n"
-		<< "'Q': To Quit\n";
+		<< "'S': Check current leaderboard\n"
+		<< "'T': find an idiviual's top score\n"
+		<< "'Q': To Quit\n"
+		<< "'R': Reset Records\n";
 
 	cin >> selection;
 
@@ -55,19 +64,30 @@ int main() {
 	case 'h':
 	case 'H': Help();
 		break;
-	/*case 's':
-	case 'S': InputScore(playerTable, string for playerName, string for score *FROM PLAYGAME()* );
-		break;*/
-	case 't':
-	case 'T': showScore();
+	case 's':
+	case 'S': showRecord();
 		break;
+	case 't':
+	case 'T':
+			cout << "What player?\n";
+			cin >> test.playerName;
+			showScore(test);
+		break;
+			
+	case 'r':
+	case 'R': resetScore();
+	break;
+			
 	case 'q':
 	case 'Q': return 0;
 		break;
+			
+	default:
+			cout <<"You don't know how to use a menu?\n";
+		break;
 	}
 
-	system("PAUSE");
-
+	
 	return 0;
 }
 

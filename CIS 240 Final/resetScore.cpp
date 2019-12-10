@@ -4,6 +4,11 @@
 
 using namespace std;
 
+struct PlayerData {
+	string playerName;
+	int score;
+};
+
 void resetScore() {
 	/*
 	***************************************************************************
@@ -15,7 +20,7 @@ void resetScore() {
 	string empty = "null";
 
 
-	scoreBoard.open("C:\\Users\\forti\\Desktop\\ScoreBoard.txt");
+	scoreBoard.open("ScoreBoard.txt");
 
 	cout << "Abandon hope all ye who enter here.\n"
 		<< "Do you really want to wipe the score board?\n"

@@ -35,24 +35,23 @@ bool questionTen();
 void Game(){
 	
 	cout << "Lets start with three warm up questions\n";
-	bool practceQuestions[3];
-	
-	practceQuestions[0] = practiceQuestionOne();
-	practceQuestions[1] = practiceQuestionTwo();
-	practceQuestions[2] = practiceQuestionThree();
 	int j = 0;
 	
-	for (int i = 0; 1 <3; i++){
-		if(practceQuestions[i]){
-			j++;
-		}
-		if (j < 2){
-			cout << "You didn't even get two of the easy three right.\nWhat makes you think you got what it takes?";
-			main();
-		}else {
-			cout <<"You know your stuff kid lets try something harder.";
-		}
-			
+	if (practiceQuestionOne()){
+		j++;
+	}
+	if (practiceQuestionTwo()){
+		j++;
+	}
+	if (practiceQuestionThree()){
+		j++;
+	}
+	
+	if (j < 2){
+		cout << "You didn't even get two of the easy three right.\nWhat makes you think you got what it takes?\n";
+		main();
+	}else{
+		cout <<"You know your stuff kid lets try something harder.\n";
 	}
 
 	vector<int> mainGameQuestion {1,2,3,4,5,6,8,9,10};

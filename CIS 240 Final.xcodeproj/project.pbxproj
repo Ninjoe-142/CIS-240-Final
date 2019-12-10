@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B4D5376239F15FC0031074C /* resetScore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B4D5375239F15FC0031074C /* resetScore.cpp */; };
+		0B4D5378239F17D80031074C /* showRecord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B4D5377239F17D70031074C /* showRecord.cpp */; };
 		0BF1365723985E900009F9FC /* Questions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BF1365523985E900009F9FC /* Questions.cpp */; };
 		0BF1365923985EB10009F9FC /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BF1365823985EB10009F9FC /* Game.cpp */; };
 		0BF1365B23985F7B0009F9FC /* Help.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BF1365A23985F7B0009F9FC /* Help.cpp */; };
@@ -29,6 +31,8 @@
 
 /* Begin PBXFileReference section */
 		0B4D5374239EF9960031074C /* ScoreBoard.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ScoreBoard.txt; sourceTree = "<group>"; };
+		0B4D5375239F15FC0031074C /* resetScore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = resetScore.cpp; sourceTree = "<group>"; };
+		0B4D5377239F17D70031074C /* showRecord.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = showRecord.cpp; sourceTree = "<group>"; };
 		0BF1365523985E900009F9FC /* Questions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Questions.cpp; sourceTree = "<group>"; };
 		0BF1365823985EB10009F9FC /* Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
 		0BF1365A23985F7B0009F9FC /* Help.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Help.cpp; sourceTree = "<group>"; };
@@ -75,6 +79,8 @@
 				0BF1365823985EB10009F9FC /* Game.cpp */,
 				0BF1365523985E900009F9FC /* Questions.cpp */,
 				0BF1365E2399CB870009F9FC /* showScores.cpp */,
+				0B4D5377239F17D70031074C /* showRecord.cpp */,
+				0B4D5375239F15FC0031074C /* resetScore.cpp */,
 			);
 			path = "CIS 240 Final";
 			sourceTree = "<group>";
@@ -140,8 +146,10 @@
 				0BF1365F2399CB870009F9FC /* showScores.cpp in Sources */,
 				B2CD8E4423624490007EBE18 /* main.cpp in Sources */,
 				0BF1365B23985F7B0009F9FC /* Help.cpp in Sources */,
+				0B4D5376239F15FC0031074C /* resetScore.cpp in Sources */,
 				0BF1365D23985FC30009F9FC /* Score.cpp in Sources */,
 				0BF1365723985E900009F9FC /* Questions.cpp in Sources */,
+				0B4D5378239F17D80031074C /* showRecord.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
